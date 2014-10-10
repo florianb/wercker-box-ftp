@@ -5,7 +5,7 @@ type: service
 platform: ubuntu@12.04
 description: "wercker box which contains the ftp-command, to be used with niftypee"
 packages:
-  - ftp@0.17
+  - ftp@0.17-25
 keywords:
   - ftp
 script: |
