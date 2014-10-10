@@ -1,11 +1,11 @@
 name: ftp
-version: 0.0.3
-inherits: wercker/ubuntu12.04-webessentials
+version: 0.0.4
+inherits: wercker/ubuntu12.04-webessentials@1.0.6
 type: service
 platform: ubuntu@12.04
 description: "wercker box which contains the ftp-command, to be used with niftypee"
 packages:
-  - ftp@0.17-25
+  - ftp@0.17
 keywords:
   - ftp
 script: |
